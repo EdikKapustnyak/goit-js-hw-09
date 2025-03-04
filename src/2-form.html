@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css" />
+  </head>
+  <body>
+    <button class="goback-btn"><a href="./index.html">Go Back</a></button>
+    <form class="feedback-form" autocomplete="off">
+      <div class="form-container">
+        <div class="label-email-container">
+          <label class="label-email">
+            Email
+            <div class="form-input-container">
+              <input class="form-input" type="email" name="email" autofocus />
+            </div>
+          </label>
+        </div>
+        <div class="meassage-container">
+          <label class="label-message">
+            Message
+            <div class="message-window">
+              <textarea class="form-message" name="message" rows="8"></textarea>
+            </div>
+          </label>
+        </div>
+        <button class="form-btn" type="submit">Submit</button>
+      </div>
+    </form>
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
+</html>

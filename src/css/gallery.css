@@ -1,0 +1,19 @@
+@import url('./base.css');
+@import url('./reset.css');
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-item {
+  display: flex;
+  max-width: 360px;
+}
